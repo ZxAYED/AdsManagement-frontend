@@ -1,36 +1,34 @@
-import { Button } from "@/components/ui/button";
 import { ArrowRight, List, Map } from "lucide-react";
 import { useState } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 
 import CommonDashboardButton from "@/common/CommonDashBoardButton";
+
 import "leaflet/dist/leaflet.css";
-import { BillboardLocation, billboardLocations, mapConfig } from ".";
-import { BillboardMarker } from "./BillBoardMarker";
+import { mapConfig } from ".";
+
 
 export default function MobileBillboardMap() {
   const [viewMode, setViewMode] = useState<"map" | "list">("map");
 
-  const handleViewCampaigns = (location: BillboardLocation) => {
-    console.log("View campaigns for:", location.name);
-  };
+
 
   const handleSeeAllCampaigns = () => {
     console.log("Navigate to all campaigns");
   };
 
-  const getStatusColor = (status: BillboardLocation["status"]) => {
-    switch (status) {
-      case "active":
-        return "bg-green-500";
-      case "maintenance":
-        return "bg-orange-500";
-      case "inactive":
-        return "bg-gray-500";
-      default:
-        return "bg-gray-500";
-    }
-  };
+  // const getStatusColor = (status: ILocation["status"]) => {
+  //   switch (status) {
+  //     case "active":
+  //       return "bg-green-500";
+  //     case "maintenance":
+  //       return "bg-orange-500";
+  //     case "inactive":
+  //       return "bg-gray-500";
+  //     default:
+  //       return "bg-gray-500";
+  //   }
+  // };
 
   return (
     <div className="w-full h-[600px] relative bg-dashboard-card-bg rounded-lg">
@@ -80,17 +78,17 @@ export default function MobileBillboardMap() {
               attribution="&copy; OpenStreetMap contributors &copy; CARTO"
             />
 
-            {billboardLocations.map((location) => (
+            {/* {locationData.map((location) => (
               <BillboardMarker
                 key={location.id}
                 location={location}
                 onViewCampaigns={handleViewCampaigns}
               />
-            ))}
+            ))} */}
           </MapContainer>
         ) : (
           <div className="h-full overflow-y-auto px-4 space-y-3">
-            {billboardLocations.map((location) => (
+            {/* {locationData.map((location) => (
               <div
                 key={location.id}
                 className=" backdrop-blur rounded-lg p-4 border border-white/20"
@@ -104,11 +102,11 @@ export default function MobileBillboardMap() {
                         )}`}
                       />
                       <h3 className="text-white font-medium text-sm">
-                        {location.name}
+                        {location.title}
                       </h3>
                     </div>
                     <p className="text-white/70 text-xs mb-2">
-                      {location.city}, {location.country}
+                      {location.location},
                     </p>
                     <p className="text-white/60 text-xs">
                       {location.campaigns} active campaigns
@@ -124,7 +122,7 @@ export default function MobileBillboardMap() {
                   </Button>
                 </div>
               </div>
-            ))}
+            ))} */}
           </div>
         )}
         <div className="mt-6 ">
