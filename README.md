@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/SceneAds-Ads%20Management%20Ecommerce-0ea5e9?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDBFMTk1IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiI+PHBhdGggZD0iTTE5IDFIM2MtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlYzYzAtMS4xLS45LTItMi0yek0xMCAxOGwtNC00IDQgNEw5IDEzbDctNyA0IDRIMTciLz48L3N2Zz4=" alt="SceneAds" height="56" />
+<img src="https://res.cloudinary.com/dhl04adhz/image/upload/v1763275245/logo_demicy.png" alt="SceneAds" height="56" />
 
 <h1>SceneAds: Ads Management Ecommerce Platform</h1>
 
@@ -149,8 +149,8 @@ This project was a collaborative effort by a dedicated team of developers. We ar
 If you’re an HR/Recruiter and want to see a polished, scalable React/TypeScript/Tailwind + Maps product—this is it.  
 **I can adapt this system to your business case, integrate custom payment flows, and scale the chat/campaign modules.**
 
-- GitHub: **@your_username**  
-- Email: **you@example.com**  
+- GitHub:   https://github.com/ZxAYED
+- Email: zzayediqbalofficial@gmail.com 
 - Agency: **SoftVence Agency**
 
 > Thanks for checking out **SceneAds** — let’s build something impactful!
