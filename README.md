@@ -140,7 +140,7 @@ src
 
 ## 🙌 Acknowledgment
 
-This project was a collaborative effort by a dedicated team of developers. We are proud of the final product and the teamwork that went into it.
+This project was a collaborative effort by a dedicated team of developers (Friends). We are proud of the final product and the teamwork that went into it.
 
 ---
 
@@ -149,8 +149,7 @@ This project was a collaborative effort by a dedicated team of developers. We ar
 If you’re an HR/Recruiter and want to see a polished, scalable React/TypeScript/Tailwind + Maps product—this is it.  
 **I can adapt this system to your business case, integrate custom payment flows, and scale the chat/campaign modules.**
 
-- GitHub:   https://github.com/ZxAYED
-- Email: zzayediqbalofficial@gmail.com 
-- Agency: **SoftVence Agency**
+- GitHub: https://github.com/ZxAYED
+- Email: zzayediqbalofficial@gmail.com
 
 > Thanks for checking out **SceneAds** — let’s build something impactful!
