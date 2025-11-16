@@ -98,18 +98,12 @@ npm run dev
 
 ---
 
-## 🧭 Project Preview (Drop your screenshots here)
+## 🧭 Project Preview
 
-> Make your HR smile—drop 2–3 solid screenshots/GIFs 😄
+- ****  
+  ![Dashboard Preview](https://res.cloudinary.com/dhl04adhz/image/upload/v1763015112/danaj_ixyvny.png)
 
-- **Dashboard**  
-  ![Dashboard Preview](https://via.placeholder.com/1200x600?text=Dashboard+Preview)
 
-- **Map & Screens**  
-  ![Map Preview](https://via.placeholder.com/1200x600?text=Interactive+Map)
-
-- **Campaign Flow**  
-  ![Campaign Flow](https://via.placeholder.com/1200x600?text=Campaign+Creation)
 
 ---
 
