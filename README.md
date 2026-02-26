@@ -1,149 +1,98 @@
+
 # SceneAds: Ads Management Ecommerce Platform
 
-<div align="center">
+SceneAds is a comprehensive ads management and ecommerce platform. It's a feature-rich system designed to connect businesses with billboard owners, allowing them to manage and display their advertisements seamlessly. This project was a collaborative team effort, built with a modern tech stack to deliver a robust and user-friendly experience.
 
-<img src="https://res.cloudinary.com/dhl04adhz/image/upload/v1763275245/logo_demicy.png" alt="SceneAds" height="56" />
+## Key Features
 
-<h1>SceneAds: Ads Management Ecommerce Platform</h1>
+### For Users/Businesses
 
-<strong>A modern ads management & ecommerce platform</strong> connecting businesses with billboard owners to plan, buy, and run outdoor campaigns—fast.
+* Account Management: Secure user authentication (login/signup) and profile management.
+* Interactive Map: Explore available billboards on an interactive map, powered by the Google Maps Geolocation API.
+* Campaign Creation: Easily create and customize ad campaigns by selecting desired screens or bundles of screens.
+* Content Upload: Upload ad content (images/videos) for campaigns.
+* Secure Payments: Integrated payment system to purchase ad space.
+* Campaign Analytics: Monitor the performance of active ad campaigns with detailed statistics.
+* Ad Management: View and manage all past and present ad campaigns.
+* Real-time Chat System: Communicate directly with billboard owners/admins or users through an integrated chat system.
 
-<a href="#"><img src="https://img.shields.io/badge/PRs-welcome-22c55e?style=for-the-badge" alt="PRs Welcome" /></a>
-<a href="#"><img src="https://img.shields.io/badge/issues-tilt-ef4444?style=for-the-badge" alt="Issues" /></a>
-<a href="#"><img src="https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F-ec4899?style=for-the-badge" alt="Love" /></a>
+### For Admins
 
-</div>
+* Dashboard: A comprehensive admin panel to manage the entire platform.
+* User Management: Oversee all registered users.
+* Screen Management: Add, edit, and manage individual billboard screens.
+* Campaign Approval: Review and approve or reject user-submitted ad campaigns.
+* Payment Tracking: Monitor all transactions and payment details.
+* Dynamic Pricing: Configure and manage pricing for different ad spaces and times.
+* Real-time Chat System: Engage in direct communication with users to resolve queries and provide support.
 
----
+## Tech Stack
 
-## ✨ Key Features
+This project leverages a modern and powerful tech stack to deliver a seamless and performant user experience.
 
-### 🧑‍💼 For Users/Businesses
-- 🔐 **Account Management**: Secure user authentication (login/signup) and profile management.
-- 🗺️ **Interactive Map**: Explore available billboards on an interactive map (Google Maps Geolocation API).
-- 🎯 **Campaign Creation**: Create & customize ad campaigns by selecting screens or bundles.
-- 📤 **Content Upload**: Upload ad content (images/videos).
-- 💳 **Secure Payments**: Integrated payment system for ad space.
-- 📊 **Campaign Analytics**: Monitor performance with detailed statistics.
-- 📁 **Ad Management**: Manage all past & present campaigns.
-- 💬 **Real-time Chat System**: Direct comms with billboard owners/admins or users.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/tailwind%20css-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Radix UI](https://img.shields.io/badge/radix%20ui-161618.svg?style=for-the-badge&logo=radix-ui&logoColor=white)
+![Shadcn/UI](https://img.shields.io/badge/shadcn%2Fui-000000.svg?style=for-the-badge&logo=shadcn-ui&logoColor=white)
+![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=react-hook-form&logoColor=white)
+![Zod](https://img.shields.io/badge/zod-%233E67B1.svg?style=for-the-badge&logo=zod&logoColor=white)
+![Axios](https://img.shields.io/badge/axios-671ddf.svg?style=for-the-badge&logo=axios&logoColor=white)
+![React Query](https://img.shields.io/badge/react%20query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
+![Google Maps](https://img.shields.io/badge/Google%20Maps-%234285F4.svg?style=for-the-badge&logo=google-maps&logoColor=white)
+![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white)
+![ApexCharts](https://img.shields.io/badge/ApexCharts-%2300E396.svg?style=for-the-badge&logo=apexcharts&logoColor=white)
+![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
 
-### 🛠️ For Admins
-- 📊 **Dashboard**: Manage the entire platform.
-- 👥 **User Management**
-- 🧱 **Screen Management**: Add, edit, manage individual billboard screens.
-- ✅ **Campaign Approval**: Approve/reject campaigns.
-- 💸 **Payment Tracking**
-- 🧮 **Dynamic Pricing**
-- 💬 **Real-time Chat System**
+## Google Maps Geolocation API
 
----
-
-## 🧰 Tech Stack
-
-<div align="left">
-
-<img src="https://img.shields.io/badge/react-20232a?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=fff" alt="Vite" />
-<img src="https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=fff" alt="TypeScript" />
-<img src="https://img.shields.io/badge/redux-593d88?style=for-the-badge&logo=redux&logoColor=fff" alt="Redux" />
-<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=fff" alt="React Router" />
-<img src="https://img.shields.io/badge/tailwind-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=fff" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/radix%20ui-161618?style=for-the-badge&logo=radix-ui&logoColor=fff" alt="Radix UI" />
-<img src="https://img.shields.io/badge/shadcn%2Fui-000?style=for-the-badge&logo=shadcnui&logoColor=fff" alt="shadcn/ui" />
-<img src="https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=fff" alt="React Hook Form" />
-<img src="https://img.shields.io/badge/zod-3E67B1?style=for-the-badge&logo=zod&logoColor=fff" alt="Zod" />
-<img src="https://img.shields.io/badge/axios-671DDF?style=for-the-badge&logo=axios&logoColor=fff" alt="Axios" />
-<img src="https://img.shields.io/badge/react%20query-FF4154?style=for-the-badge&logo=reactquery&logoColor=fff" alt="React Query" />
-<img src="https://img.shields.io/badge/Google%20Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=fff" alt="Google Maps" />
-<img src="https://img.shields.io/badge/chart.js-F5788D?style=for-the-badge&logo=chartdotjs&logoColor=fff" alt="Chart.js" />
-<img src="https://img.shields.io/badge/ApexCharts-00E396?style=for-the-badge&logo=apexcharts&logoColor=fff" alt="ApexCharts" />
-<img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=fff" alt="ESLint" />
-
-</div>
-
----
-
-## 🗺️ Google Maps Geolocation API
-
-Deep integration for:
-- 🧭 **Visualizing Billboards** on a dynamic map.
-- 🔎 **Location-Based Search**: by city/state/country.
-- 🏷️ **Detailed Location Info**: address + nearby POIs.
-
-Powered by **@react-google-maps/api** and **@vis.gl/react-google-maps**.
-
----
-
-## 🚀 Getting Started
-
-> Make sure you have **Node.js**, **npm/yarn**, and a **Google Maps API key**.
-
-```bash
-# 1) Clone
-git clone https://github.com/your_username/your_project_name.git
-cd your_project_name
-
-# 2) Install
-npm install
-
-# 3) Env
-# .env
-VITE_GOOGLE_MAPS_API_KEY=your_api_key
-
-# 4) Run
-npm run dev
-# App: http://localhost:5173
-```
-
----
-
-## 🧭 Project Preview
-
-- ****  
-  ![Dashboard Preview](https://res.cloudinary.com/dhl04adhz/image/upload/v1763015112/danaj_ixyvny.png)
+A core feature of our platform is the deep integration with the Google Maps Geolocation API. This allows for:
 
 
+* Visualizing Billboards: Users can see the exact location of all available billboards on a dynamic and interactive map.
+* Location-Based Search: Users can search for billboards in specific cities, states, or countries.
+* Detailed Location Information: The platform provides rich data for each billboard, including its address, and surrounding points of interest.
 
----
+This powerful mapping functionality is made possible by utilizing the @react-google-maps/api and @vis.gl/react-google-maps libraries, which provide a seamless bridge between our React application and the Google Maps API.
 
-## 📦 Folder Structure (high-level)
+## Getting Started
 
-```
-src
-├─ components/
-├─ pages/ or app/
-├─ store/ (Redux)
-├─ hooks/
-├─ features/
-├─ styles/
-└─ utils/
-```
+To get a local copy up and running, follow these simple steps.
 
----
+### Prerequisites
 
-## 🧑‍💻 Dev Notes
+* Node.js and npm (or yarn) installed on your machine.
+* A Google Maps API key.
 
-- Strong **type-safety** with **TypeScript + Zod**.
-- Accessible UI with **Radix** + **shadcn/ui** + **Tailwind**.
-- **React Query**/**Redux** for state & data flows.
-- **Chart.js/ApexCharts** for analytics.
-- Clean code with **ESLint**.
+### Installation
 
----
+1. Clone the repo
 
-## 🙌 Acknowledgment
+        git clone https://github.com/your_username/your_project_name.git
+    
 
-This project was a collaborative effort by a dedicated team of developers (Friends). We are proud of the final product and the teamwork that went into it.
+2. Install NPM packages
 
----
+        npm install
+    
 
-## 💼 Hire Me / Contact
+3. Set up environment variables
+    Create a .env file in the root of the project and and add your Google Maps API key:
 
-If you’re an HR/Recruiter and want to see a polished, scalable React/TypeScript/Tailwind + Maps product—this is it.  
-**I can adapt this system to your business case, integrate custom payment flows, and scale the chat/campaign modules.**
+    
+    VITE_GOOGLE_MAPS_API_KEY=your_api_key
+    
 
-- GitHub: https://github.com/ZxAYED
-- Email: zzayediqbalofficial@gmail.com
+4. Run the development server
 
-> Thanks for checking out **SceneAds** — let’s build something impactful!
+        npm run dev
+    
+
+The application will be available at http://localhost:5173 (or another port if 5173 is in use).
+
+## Acknowledgment
+
+This project was a collaborative effort by a dedicated team of developers. We are proud of the final product and the teamwork that went into it.
