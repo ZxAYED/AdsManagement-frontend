@@ -12,7 +12,6 @@ dist-ssr
 *.local
 .continue/pip install git-filter-repo
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
